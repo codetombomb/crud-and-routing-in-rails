@@ -13,7 +13,7 @@
 
 ## Overview of How a Rails MVC Works
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f3fd8a2-8954-4950-9448-da53228dd8ee/Untitled.png)
+![Overview of How a Rails MVC Works]([https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f3fd8a2-8954-4950-9448-da53228dd8ee/Untitled.png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9f3fd8a2-8954-4950-9448-da53228dd8ee%2FUntitled.png?table=block&id=10897ca0-9297-4fd4-b027-a67400b37cd2&spaceId=9e9abdc0-7286-4167-bd40-cf4de0515891&width=2000&userId=85ac1292-afdb-4bd0-ab21-00deb2e5bd0f&cache=v2))
 
 <aside>
 💡 **Note on Serializers**: If you call `render json:` on a Ruby object or collection, Rails will construct JSON that uses a default format. Serializers in Rails give us the ability to customize the JSON output for a particular resource.
