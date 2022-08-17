@@ -44,7 +44,13 @@ Depending on how our validations go, how should our controller action respond to
 
 ## **A note about Status Codes**
 
-[Status Codes](https://www.notion.so/c95312139043481482867c46df5ff995)
+| Codes | Meaning | Usage |
+|---|---|---|
+| 200-299 | OK Response | used to indicate success (200 is OK, 201 is created, 204 is no content) |
+| 300-399 | Redirect | used mainly in applications that do server side rendering (not with a react client) to indicate that the server is responding to the request by generating another request |
+| 400-499 | User Error | Used to indicate some problem with the request that the user sent. (400 is bad request, 401 is unauthorized, 403 is forbidden, 404 is not found,...) |
+| 500-599 | Server Error | Used to indicate that a request generated an error on the server side that needs to be fixed. When we see this during development, we need to check out network tab and rails server logs for a detailed error message. |
+
 
 See [railsstatuscodes.com](http://www.railsstatuscodes.com/) for a complete list with the corresponding symbols.
 
