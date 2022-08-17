@@ -1,4 +1,5 @@
 # Routing & CRUD in Rails
+[Notion notes (the same as this README)](https://www.notion.so/Routing-CRUD-in-Rails-186eb13eed1e48559814c2e1eb1ebf21)
 
 ## Announcements
 
